@@ -1,0 +1,136 @@
+html, body {
+  position: relative;
+  color: #333;
+  overflow-x: hidden;
+  margin: 0;
+  padding: 0;
+  font-family: Helvetica, arial, freesans, clean, sans-serif;
+  font-size: 1em;
+  line-height: 1.5em;
+  background-color: #fff;
+  height: 100%;
+  overflow: hidden;
+}
+
+body {
+  overscroll-behavior: none;
+}
+
+h1, h2, h3, h4, h5, h6, p {
+  font-size: 1em;
+  margin: 0;
+  padding: 0;
+  font-weight: normal;
+}
+
+p {
+  margin: 1em;
+}
+
+a:link,
+a:visited,
+a:hover
+a:active {
+  color: #333;
+  text-decoration: none;
+}
+
+img {
+  border: none;
+}
+
+#header {
+  font-size: 12px;
+  color: #fff;
+  position: fixed;
+  z-index: 1000;
+  top: 0;
+  left: 0;
+  background-color: #444;
+  width: 100%;
+  display: flex;
+  justify-content: space-between;
+}
+
+#header h1 {
+  margin: 8px 16px;
+}
+
+#header a {
+  color: #fff;
+}
+
+#header a:hover {
+  text-decoration: underline;
+}
+
+#reset-button {
+    margin-left: 16px;
+}
+
+#copy-button {
+    margin-left: 16px;
+}
+
+#github {
+  margin: 8px 16px;
+  width: 16px;
+}
+
+#github img {
+  width: 16px;
+  padding: 0;
+  margin: 0;
+}
+
+#github a {
+  vertical-align: middle;
+}
+
+#container {
+  position: absolute;
+  width: 100%;
+  margin: 0 auto;
+  background-color: #fff;
+  overflow: hidden;
+  border-bottom: 1px solid #e8e8e8;
+}
+
+#editor-wrapper {
+  border-right: 8px solid #eee;
+}
+
+#preview-wrapper {
+  padding: 8px 0 8px 8px;
+}
+
+.column {
+  padding: 0;
+  margin: 0;
+  white-space: nowrap;
+  display: inline-block;
+  width: 50%;
+  vertical-align: top;
+  overflow-y: scroll;
+}
+
+#preview.column {
+  white-space: normal;
+}
+
+#footer {
+  padding: 8px;
+  z-index: 1001;
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  width: 100%;
+  background-color: #444;
+  color: #fff;
+  text-align: center;
+  display: none;
+  justify-content: center;
+  align-items: center;
+}
+
+
