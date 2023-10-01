@@ -9,20 +9,34 @@ The contactform.php file houses the php code used to send an email.
 <p><b>WARNING: Be sure to change the value of the $to variable on line 10 in  the contactform.php file. That is the address that the email will be sent to.</b></p>
 
 These two files must be used in a hosted environment that supports PHP.
+=======
 
 
+# iPortfolio
 
 
+## <span>&#128516;</span> Nothing too much to see . 
 
 
-<br />
-<br />
-<div id="images">
-<h3>Example in action</h3>
-<img style="display: inline; margin: 0 5px;" src="image1.png" width=“1440" height=“620" />
+=======
+## VIEW INSTRUCTION:
 
-<br />
-<br />
-<h3>In this example, the submit button was pressed before entering all of the details which displays error messages at all empty fields</h3>
-<img style="display: inline; margin: 0 5px;" src="image2.png" width=“1440” height=“620" />
-</div>
+> Git Clone Repo-
+    ```
+    git clone https://github.com/johnnzamba/iPortfolio.git
+    ```
+    
+>Cd ~       ```
+    cd iPortfolio
+    ```
+    
+>Open Terminal and execute 
+            ```
+    php -S localhost:8000
+    ```
+
+
+## Bootstrap
+
+Bootsrap from @`BootstrapMade.com`.
+
